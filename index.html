@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens e Musica</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <picture style="max-width: 100%; display: block;"> <!-- usando style inline, arquivo css apenas no proximo projeto -->
+        <source media="(max-width: 750px)" srcset="img/12.png" type="image/png"> <!-- Imagem para telas menores que 750px -->
+        <source media="(max-width: 1920px)" srcset="img/11.png" type="image/png">
+        <!-- Imagem para telas menores que 1920px -->
+        <img src="img/11.png" alt="Imagem dinâmica" style="max-width: 100%; height: auto;">
+    </picture>
+    <h1>Musica</h1>
+    <p>Reproduzido musicas em HTML5</p>
+    <audio controls>
+        <source src="musica/tonight-again.mp3" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+    <h1>Vídeo hospedado localmente</h1>
+    <video controls width="640" style="max-width: 100%;">
+        <source src="video/video.mp4" type="video/mp4">
+        Seu navegador não suporta o elemento de vídeo.
+    </video>
+    <h1>Video hospedado no YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/nCKwUB8EVbc?si=1HhncHcZPahGWvEz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+</html>
