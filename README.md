@@ -1,15 +1,14 @@
-# Imagens que se adaptam
+# Estudo de Imagem Dinâmica, Áudio e Vídeo em HTML
 
-Estudo sobre imagens responsivas, áudio e vídeo em HTML5.
+Projeto pra aprender sobre mídia responsiva e multimídia em HTML5.
 
-## O que tem no projeto?
+## Conceitos estudados
 
-- **Imagem dinâmica**: uso da tag `<picture>` para mostrar imagens diferentes dependendo do tamanho da tela
-- **Áudio**: tag `<audio>` com MP3
-- **Vídeo local**: tag `<video>` com MP4
-- **Vídeo do YouTube**: embed com iframe
+- **Imagem dinâmica** — tag `<picture>` com `<source>` pra mostrar imagens diferentes conforme o tamanho da tela
+- **Áudio** — tag `<audio>` com MP3
+- **Vídeo local** — tag `<video>` com MP4
+- **Vídeo do YouTube** — embed com `<iframe>`
 
+## Arquivos
 
-## Como testar?
-
-Abrir o `index.html` via servidor local (Live Server ou similar) e redimensionar a janela pra ver a imagem mudar.
+- `index.html` — página principal
