@@ -12,3 +12,6 @@ Projeto pra aprender sobre mídia responsiva e multimídia em HTML5.
 ## Arquivos
 
 - `index.html` — página principal
+
+---
+[Ver online](https://mirandaromario09.github.io/estudo-html-imagem-dinamica-audio-video)
